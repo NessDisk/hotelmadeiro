@@ -19,8 +19,8 @@ steps:
   displayName: 'Run a multi-line script'
   
 - script: |
-    git config --global user.email "you@example.com"
-    git config --global user.name "Your Name"
+    git config --global user.email "ness.cero1@gmail.com"
+    git config --global user.name "NessDisk"
     git status
   displayName: 'Setup Git and Check Status'
 
