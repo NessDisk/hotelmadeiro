@@ -21,9 +21,9 @@ steps:
 - script: |
     git config --global user.email "you@example.com"
     git config --global user.name "Your Name"
-    git commit -am "Update from Pipeline"
-    git push
-  displayName: 'Commit and Push changes'
+    git status
+  displayName: 'Setup Git and Check Status'
+
  
 # - script: |
 #     npm install
