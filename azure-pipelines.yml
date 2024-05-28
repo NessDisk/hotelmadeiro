@@ -23,6 +23,13 @@ steps:
     git config --global user.name "NessDisk"
     git status
   displayName: 'Setup Git and Check Status'
+  
+- script: |
+    git init
+    git remote add origin <https://github.com/NessDisk/hotelmadeiro>
+    git fetch
+    git checkout -b main origin/main
+  displayName: 'Initialize Git Repository and Checkout'
 
  
 # - script: |
